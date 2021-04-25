@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ASUncaughtExce_Tests' do
+  pod 'ASUncaughtExce', :path => '../'
+  
+  
+end
