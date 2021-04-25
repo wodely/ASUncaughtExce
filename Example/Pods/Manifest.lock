@@ -1,0 +1,16 @@
+PODS:
+  - ASUncaughtExce (0.1.0)
+
+DEPENDENCIES:
+  - ASUncaughtExce (from `../`)
+
+EXTERNAL SOURCES:
+  ASUncaughtExce:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASUncaughtExce: 26f2e44b50ca29bc179efea825d8fc88f28ef002
+
+PODFILE CHECKSUM: de3b67dc26d1e755c440e2f2d4b347a101b1db75
+
+COCOAPODS: 1.10.1

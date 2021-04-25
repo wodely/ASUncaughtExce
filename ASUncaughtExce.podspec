@@ -9,31 +9,25 @@
 Pod::Spec.new do |s|
   s.name             = 'ASUncaughtExce'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ASUncaughtExce.'
+  s.summary          = '异常捕获工具 '
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+     异常捕获 for aisino
                        DESC
 
-  s.homepage         = 'https://github.com/liukecyl@163.com/ASUncaughtExce'
+  s.homepage         = 'https://github.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'liukecyl@163.com' => '540548997@qq.com' }
-  s.source           = { :git => 'https://github.com/liukecyl@163.com/ASUncaughtExce.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'liukecyl@163.com' => 'liukecyl@163.com' }
+  s.source           = { :git => 'https://github.com/wodely/ASUncaughtExce.git', :tag => s.version.to_s }
+  
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ASUncaughtExce/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'ASUncaughtExce' => ['ASUncaughtExce/Assets/*.png']
+  #   'ASCTMediator' => ['ASCTMediator/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

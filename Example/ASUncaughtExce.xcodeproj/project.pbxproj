@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		08DD45953A9C3CB1A7CCA6BD /* Pods_ASUncaughtExce_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASUncaughtExce_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		174FA6B5FFBA8BCD003047DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		174FA6B5FFBA8BCD003047DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,10 +27,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65FE7B3E149DBBCD82BA6802 /* ASUncaughtExce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASUncaughtExce.podspec; path = ../ASUncaughtExce.podspec; sourceTree = "<group>"; };
+		65FE7B3E149DBBCD82BA6802 /* ASUncaughtExce.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASUncaughtExce.podspec; path = ../ASUncaughtExce.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C48C16AFD3EFA7A7C45EF0ED /* Pods-ASUncaughtExce_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUncaughtExce_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ASUncaughtExce_Tests/Pods-ASUncaughtExce_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6F3A26CB28F20425BC2E2CF /* Pods-ASUncaughtExce_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASUncaughtExce_Tests.release.xcconfig"; path = "Target Support Files/Pods-ASUncaughtExce_Tests/Pods-ASUncaughtExce_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F366EBCAAAD69D57179DC7BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F366EBCAAAD69D57179DC7BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				C48C16AFD3EFA7A7C45EF0ED /* Pods-ASUncaughtExce_Tests.debug.xcconfig */,
 				D6F3A26CB28F20425BC2E2CF /* Pods-ASUncaughtExce_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

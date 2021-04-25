@@ -1,0 +1,6 @@
+framework module ASUncaughtExce {
+  umbrella header "ASUncaughtExce-umbrella.h"
+
+  export *
+  module * { export * }
+}
